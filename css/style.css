@@ -1,0 +1,50 @@
+﻿/* Dica, se colocar a TAG "a" dentro do "li", é interessante transformar o "a" com o Display: block */
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+main{
+	margin: 30px;
+}
+
+#nav{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#nav li{
+}
+
+#nav li a {
+	background-image:url('../img/image_nav.gif');
+	background-repeat:no-repeat;
+    padding: 36px 40px;
+    /* line-height: 72px; */
+    display: block;
+    margin-bottom: 20px;
+}
+
+#nav li a.item1 {background-position:0 0;}
+#nav li a:hover.item1 {background-position:0 -72px;}
+
+#nav li a.item2 {background-position:0 -143px;}
+#nav li a:hover.item2 {background-position:0 -215px;}
+
+#nav li a.item3 {background-position:0 -287px;}
+#nav li a:hover.item3 {background-position:0 -359px;}
+
+#nav li a.item4 {background-position:0 -431px;}
+#nav li a:hover.item4 {background-position:0 -503px;}
+
+#nav li a.item5 {background-position:0 -575px;}
+#nav li a:hover.item5 {background-position:0 -647px;}
+
+
+
+
+
+
